@@ -1,7 +1,9 @@
 from playsound import playsound
 import os
 
+# path your playlist
 os.chdir('/home/darma/Music')
+
 file = os.listdir()
 
 while True :
