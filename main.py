@@ -9,7 +9,7 @@ while True :
     for i in range(len(file)):
         print(f"{i}\t --> \t{file[i]}")
     try:
-        i = int(input('masukkan playlist anda : '))
+        i = int(input('masukkan pilihan anda : '))
         print('Anda sedang memutar music {}'.format(file[i]))
         playsound(file[i])
     except:
